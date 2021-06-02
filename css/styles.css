@@ -224,7 +224,6 @@ img {
 .team-list {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -30px;
 }
 .team-list-item {
   flex-basis: calc ((100% - 120) / 4);
@@ -261,11 +260,10 @@ img {
 /*----Footer----*/
 .footer {
   background-color: #2f303a;
-}
-.footer-container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
 .logo-link-footer {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -320,8 +318,7 @@ img {
 }
 .portfolio-filters-list {
   display: flex;
-  flex-wrap: wrap;
-  margin-left: 280px;
+  justify-content: center;
   margin-bottom: 50px;
 }
 
